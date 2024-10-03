@@ -1,0 +1,128 @@
+body {
+  color: aqua;
+  margin: 0;
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(pic/wallpaper.jpg) center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  height: 110px;
+   background: url(pic/wallhaven-4d9dwm.png) center;
+  width: 100%;
+ 
+}
+main {
+    width: 100%;
+}
+
+.imagePrice {
+  height: 220px;
+}
+
+.wrapper {
+  height: 100vh;
+   width: 100%;
+  margin: 0 auto;
+  
+}
+
+.header__row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  font-size: 36px;
+}
+
+.logo {
+  text-align: center;
+  flex-grow: 1;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.navi {
+  margin-right: 15px;
+}
+
+.navi a {
+  font-size: 25px;
+  padding: 17px;
+}
+.basket a {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.product-item {
+  position: relative;
+  padding: 5px;
+  width: auto;
+  height: 100%;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+}
+
+.products p {
+  margin: 0;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+.nav-button {
+  border: 1px solid rgb(44, 44, 44);
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.404);
+  height: 50px;
+  min-width: 80px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1700px;
+  width: 95%;
+  margin: auto;
+}
+
+.products div:hover .add-button {
+  color: red;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: wheat;
+}
+
+.products div .add-button {
+  display: none;
+}
